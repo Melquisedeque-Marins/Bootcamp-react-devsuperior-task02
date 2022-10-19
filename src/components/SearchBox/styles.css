@@ -1,12 +1,12 @@
 .container-search-box {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 270px;
     background-color: #E6F7FF;
     border-radius: 16px;
     width: 90%;
-    margin: auto;
-    margin-top: 54px;
+    margin: 54px auto;
 }
 
 .content {
@@ -35,6 +35,7 @@
      color: #5C5858;
      padding-left: 17px;
      outline: none;
+     background-color: #FFF;
  }
 
  .content input::placeholder {
@@ -52,3 +53,33 @@
      border-style: none;
      cursor: pointer;
  }
+
+ @media (max-width: 575px) {
+    .content h1 {
+        font-size: 28px;
+       
+    }
+ }
+
+ @media (max-width: 450px) {
+    
+    .content h1 {
+        font-size: 22px;
+       
+    }
+
+    .content input {
+        width: 200px;
+    }
+}
+ @media (max-width: 450px) {
+    
+    .content h1 {
+        font-size: 22px;
+       
+    }
+
+    .content input {
+        width: 200px;
+    }
+}

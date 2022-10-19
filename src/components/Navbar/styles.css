@@ -1,0 +1,20 @@
+.main-nav {
+    padding-left: 41px;
+    min-height: 62px;
+    background-color: #1890FF;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    
+  }
+
+  .navbar {
+    margin: auto;
+  }
+
+

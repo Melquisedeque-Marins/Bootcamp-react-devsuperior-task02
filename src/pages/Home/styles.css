@@ -1,0 +1,28 @@
+
+.container-home h1 {
+   font-size: 48px;
+   font-weight: 700;
+   margin-top: 28px;
+   margin-left: 41px;
+}
+
+.container-home p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #7E7E7E;
+    margin-left: 41px;
+    margin-top: 5px;
+}
+
+.container-home button {
+    margin-top: 27px;
+    margin-left: 41px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    background-color: #1890FF;
+    color: #FFF;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
